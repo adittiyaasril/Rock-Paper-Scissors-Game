@@ -1,3 +1,4 @@
+/* ---------------------------- Manipulasi DOM Direct, Menggunakan Class di line 55 ---------------------------- */
 const handButton = ["batu", "kertas", "gunting"];
 
 let gameInProgress = false;
