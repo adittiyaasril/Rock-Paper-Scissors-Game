@@ -1,0 +1,101 @@
+* {
+  background-color: #9c835f;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.navbar {
+  margin-top: 15px;
+  padding: 0;
+}
+
+.navbar-brand {
+  margin-top: -47px;
+}
+.navbar-item {
+  color: darkslategray;
+}
+.nav-link {
+  color: yellowgreen;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+img {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 45px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.playground {
+  display: flex;
+  text-align: center;
+  vertical-align: middle;
+}
+.vs {
+  color: red;
+}
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: antiquewhite;
+}
+
+h1 {
+  font-size: 100px;
+}
+
+.btn {
+  max-width: 20%;
+}
+.refresh {
+  max-width: 7%;
+  margin-top: -10px;
+}
+
+.disabled-button img {
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+.draw {
+  color: white;
+  font-size: 38px;
+  letter-spacing: 4px;
+  background: #035b0c;
+  transform: rotate(-28deg);
+}
+
+.player1win,
+.comwin {
+  color: white;
+  font-size: 38px;
+  letter-spacing: 4px;
+  transform: rotate(-28deg);
+  background-color: #4c9654;
+}
+
+img.rotate {
+  transition: transform 0.2s ease-in-out;
+}
+
+img.rotate:hover {
+  transform: rotate(30deg);
+  /* background-color: #9c835f; */
+}
+
+img.refresh {
+  transition: transform 0.2s ease-in-out;
+}
+
+img.refresh:hover {
+  animation: rotation 0.8s linear infinite;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
